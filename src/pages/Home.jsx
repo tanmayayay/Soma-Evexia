@@ -156,7 +156,7 @@ export default function Home() {
 
       {/* ——— Stats band ——— */}
       <section style={{ background: 'var(--bg2)', borderTop: '1px solid var(--line)', borderBottom: '1px solid var(--line)', padding: '64px 0' }}>
-        <div className="wrap" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 32 }}>
+        <div className="wrap stats-grid">
           {STATS.map((s) => (
             <div key={s.label}>
               <div className="serif" style={{ fontSize: 'clamp(30px, 3.4vw, 44px)', fontWeight: 400, marginBottom: 8 }}>{s.value}</div>

@@ -110,7 +110,7 @@ export default function Difference() {
             <h2>Five things we refuse to do.</h2>
             <p>Constraints are the brand. These five are non-negotiable — for every formulation, every partner, every quarter.</p>
           </div>
-          <div className="pillars" style={{ gridTemplateColumns: 'repeat(3, 1fr)' }}>
+          <div className="pillars">
             {REFUSALS.map((r) => (
               <div key={r.n} className="pillar">
                 <div className="serif" style={{ fontSize: 13, letterSpacing: '0.3em', color: 'var(--accent-ink)', marginBottom: 12 }}>{r.n}</div>

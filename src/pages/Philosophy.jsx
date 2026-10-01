@@ -118,7 +118,7 @@ export default function Philosophy() {
               difficult-to-copy product DNA — Soma Evexia becomes recognizable before the logo is even seen.
             </p>
           </div>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1px', background: 'var(--line)', border: '1px solid var(--line)' }}>
+          <div className="sig-grid">
             {SIGNATURE.map((s, i) => (
               <div key={s.title} style={{ background: 'var(--surface)', padding: '34px 30px' }}>
                 <div style={{ fontSize: 11, letterSpacing: '0.3em', color: 'var(--accent-ink)', marginBottom: 12, fontWeight: 500 }}>
